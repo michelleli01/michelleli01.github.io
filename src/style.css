@@ -1,6 +1,29 @@
-*{
-    background-color: black;
+.bg-image{
+    position: relative;
+    color:white;
 }
+
+.bg-image::after{
+    content: "";
+    opacity: 0.8;
+    background: rgb(26, 31, 41) url("/src/assets/bg.jpg") no-repeat fixed top;
+    background-blend-mode: luminosity;
+    /* also change the blend mode to what suits you, from darken, to other 
+    many options as you deem fit*/
+    background-size: cover;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: -1;
+    height: 500px;
+}
+
+*{
+    background-color: white;
+}
+
 /* HOME SECTION */
 .home-section{
     position: relative;

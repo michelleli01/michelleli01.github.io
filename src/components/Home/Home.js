@@ -23,7 +23,7 @@ function Home(){
                         <h1>
                             <span className="green">INTRODUCTION</span> 
                             <p className="home-introduction-body">
-                                I'm a sophmore studying <span className="green">Computer Science</span> at Cornell University
+                                I am a sophmore studying <span className="green">Computer Science</span> at Cornell University
                                 <br />
                                 <br /> I am proficient in 
                                 <i>
