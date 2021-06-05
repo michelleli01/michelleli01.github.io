@@ -1,28 +1,131 @@
 .bg-image{
-    position: relative;
-    color:white;
+    position: relative !important;
+    color:white !important;
 }
 
 .bg-image::after{
-    content: "";
-    opacity: 0.8;
-    background: rgb(26, 31, 41) url("/src/assets/bg.jpg") no-repeat fixed top;
-    background-blend-mode: luminosity;
+    content: "" !important;
+    opacity: 0.8 !important;
+    background: rgb(26, 31, 41) url("/src/assets/bg.jpg") no-repeat fixed top !important;
+    background-blend-mode: luminosity !important;
     /* also change the blend mode to what suits you, from darken, to other 
     many options as you deem fit*/
-    background-size: cover;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;
-    z-index: -1;
-    height: 500px;
+    background-size: cover !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    position: absolute !important;
+    z-index: -1 !important;
+    height: 500px !important;
 }
 
 *{
-    background-color: white;
+    background-color: black;
 }
+
+/* NAVBAR */
+.navbar {
+    position: fixed !important;
+    transition: all 0.3s ease-out 0s !important;
+    padding: 0.3rem 2rem !important;
+    font-size: 1.2rem !important;
+  }
+  
+  .navbar-toggler {
+    padding: 0.25rem 1.5rem !important;
+    position: relative !important;
+    background-color: transparent !important;
+    border-color: transparent !important;
+  }
+  
+  .navbar-toggler span {
+    display: block !important;
+    background-color:  darkseagreen;
+    height: 3px !important;
+    width: 25px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    left: 0 !important;
+    opacity: 1 !important;
+  }
+  
+  .navbar-toggler:not(.collapsed) span:nth-child(1) {
+    position: absolute !important;
+    left: 12px !important;
+    top: 10px !important;
+    opacity: 0.9 !important;
+  }
+  
+  .navbar-toggler:not(.collapsed) span:nth-child(2) {
+    height: 12px !important;
+    visibility: hidden !important;
+    background-color: transparent !important;
+  }
+  
+  .navbar-toggler:not(.collapsed) span:nth-child(3) {
+    position: absolute !important;
+    left: 12px !important;
+    top: 10px !important;
+    opacity: 0.9 !important;
+  }
+  
+  @media (max-width: 767px) {
+    .navbar {
+      padding: 1rem 2rem !important;
+      font-size: 1.4rem !important;
+      background-color: #181a27 !important;
+    }
+    .navbar-nav .nav-item a::after {
+      display: none !important;
+    }
+  }
+  
+  .navbar-nav .nav-link {
+    color: white !important;
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+  }
+  
+  .nav-link {
+    padding: 0.8rem 1rem !important;
+  }
+  
+  @media (max-width: 767px) {
+    .nav-link {
+      padding: 0.7rem 1rem !important;
+    }
+  }
+  
+  .navbar-nav .nav-item {
+    position: relative;
+    margin-left: 20px;
+  }
+  
+  .navbar-nav .nav-item a {
+    font-weight: 400;
+    transition: all 0.3s ease-out 0s;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .navbar-nav .nav-item a::after {
+    content: "";
+    position: relative;
+    display: block;
+    height: 3px;
+    width: 0;
+    border-radius: 10px;
+    background:darkseagreen;
+    bottom: 1px;
+    left: 0;
+    z-index: -1;
+    transition: all 0.3s ease-out 0s;
+  }
+  
+  .navbar-nav .nav-item a:hover::after {
+    width: 100%;
+  }
 
 /* HOME SECTION */
 .home-section{
