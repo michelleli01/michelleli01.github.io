@@ -7,11 +7,10 @@ function Home(){
             <Row>
                 <Col md={7} className="home-header">
                     <h1 className="heading">
-                        Hi!
                     </h1>
 
                     <h1 className="heading-name">
-                        I'M
+                        my name is
                         <strong className="green"> MICHELLE LI </strong>
                     </h1>
                 </Col>
@@ -21,17 +20,15 @@ function Home(){
                 <Row>
                     <Col md={7} className="home-introduction">
                         <h1>
-                            <span className="green">INTRODUCTION</span> 
                             <p className="home-introduction-body">
                                 I am a sophmore studying <span className="green">Computer Science</span> at Cornell University
                                 <br />
                                 <br /> I am proficient in 
                                 <i>
-                                    <b className="green"> Java and Python </b>
-                                </i>
+                                    <b className="green"> Java and Python </b> 
+                                </i> and always eager to learn more!
+                                <br /> 
                                 <br />
-                                <br />
-
                             </p>
                         </h1>
                     </Col>
