@@ -1,8 +1,18 @@
 import React from 'react';
+import { Document, Page, pdfjs } from 'react-pdf';
+
+import file from "./Li_Michelle.pdf";
 
 function Resume(){
+    pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
+
     return (
-        <section><h1>Resume</h1></section>
+        <div>
+            <Document 
+            file={ file }>
+                <Page pageNumber={ 1 } />
+            </Document>
+        </div>
     );
 }
 
