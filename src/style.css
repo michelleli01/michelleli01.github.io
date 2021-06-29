@@ -1,5 +1,8 @@
 
 /* HOME SECTION */
+.img-fluid{
+    height: 100%;
+}
 .home-section{
     position: relative;
 }
