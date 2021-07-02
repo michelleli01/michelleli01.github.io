@@ -9,8 +9,10 @@ function Resume(){
     return (
         <div>
             <Document 
-            file={ file }>
-                <Page pageNumber={ 1 } />
+            file={ file }
+            size="A4">
+                <Page pageNumber={ 1 }>
+                </Page>
             </Document>
         </div>
     );
