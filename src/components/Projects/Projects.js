@@ -49,7 +49,7 @@ function Projects(){
                         <ProjectCard
                         img={website}
                         title="Personal Website Portfolio"
-                        description="I used React.JS, HTML5, and CSS3 to create this portfolio website. While not technically challenging, building this website really help introduce me to the basics of web development and was really fun to make!"
+                        description="I used React.JS, JavaScript, HTML5, and CSS3 to create this portfolio website. While not technically challenging, building this website really help introduce me to the basics of web development and was really fun to make!"
                         link="https://github.com/michelleli01/portfolio"
                         />
                     </Col>
