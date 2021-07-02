@@ -14,6 +14,8 @@ function Home(){
                         my name is
                         <strong className="green"> MICHELLE LI </strong>
                     </h1>
+                    <div style={{textAlign:'center'}}><b>CS @ Cornell</b></div>
+                    
                 </Col>
             </Row>
 
@@ -22,16 +24,24 @@ function Home(){
                     <Col md={7} className="home-introduction">
                         <h1>
                             <p className="home-introduction-body">
-                                I am a sophmore studying <span className="green">Computer Science</span> at Cornell University
+                                Hi! I'm Michelle, a sophmore studying <span className="green">Computer Science</span> at Cornell University
                                 <br />
-                                <br /> I am proficient in 
+                                <br /> 
+                                <div className="home-main-body">
+                                I am interested in 
                                 <i>
-                                    <b className="green"> Java and Python </b> 
-                                </i> and always eager to learn more!
+                                    <b className="green"> software development </b> 
+                                </i> and utilizing technology to make people's lives easier.
                                 <br /> 
                                 <br />
-                            </p>
+                                Outside of academics I love listening to music and riding my longboard.</div>
+                                <br />
+                                <br />
+                                </p>
                         </h1>
+                    </Col>
+                    <Col md={4}>
+                        <img src={michelle} alt="picture of michelle" className="img-fluid"/>
                     </Col>
                 </Row>
             </Container>
