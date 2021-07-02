@@ -10,8 +10,23 @@ function ProjectCard(props){
         <Card.Body>
             <Card.Title>{props.title}</Card.Title>
             <Card.Text style={{ textAlign: "justify "}}>{props.description}</Card.Text>
-            <Button variant="primary" href={props.link}>
-                <BiLinkExternal /> View Project
+            <style type="text/css">
+                {`
+                    .btn-primary{
+                        color: white;
+                        background-color: darkseagreen;
+                        border-color: darkseagreen;
+                    }
+                    
+                    .btn-primary:hover{
+                        color: white;
+                        background-color: darkslategray;
+                        border-color: rgb(100, 131, 100);
+                    }
+                `}
+            </style>
+            <Button variant="primary" href={props.link} className="btn-primary">
+                <BiLinkExternal /> GitHub
             </Button>
         </Card.Body>
         </Card>

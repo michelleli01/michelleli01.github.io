@@ -4,7 +4,8 @@ import ProjectCard from './ProjectCard';
 
 import othello from "../../assets/projects/othello.PNG";
 import paint from "../../assets/projects/paint.PNG";
-import random from "../../assets/projects/random.PNG"
+import random from "../../assets/projects/random.PNG";
+import website from "../../assets/projects/website.PNG";
 
 function Projects(){
     return (
@@ -21,7 +22,7 @@ function Projects(){
                         <ProjectCard
                         img={othello}
                         title="Othello"
-                        description="Recreated classic game of Othello using Java and GUIs"
+                        description="I recreated classic game of Othello using Java and GUIs"
                         link="https://github.com/michelleli01/othello"
                         />
                     </Col>
@@ -30,7 +31,7 @@ function Projects(){
                         <ProjectCard
                         img={paint}
                         title="Network Paint"
-                        description="Used Java, GUIs, and socket programming in order to create a painting program that allows clients to connect onto the same server and paint on the same canvas using unique colors"
+                        description="I used Java, GUIs, and socket programming in order to create a painting program that allows clients to connect onto the same server and paint on the same canvas using unique colors"
                         link="https://github.com/michelleli01/network-paint"
                         />
                     </Col>
@@ -39,8 +40,17 @@ function Projects(){
                         <ProjectCard
                         img={random}
                         title="Random Sampling App"
-                        description="Used Java and Android Studio to develop an Android app that allows the user to randomly input their emotions throughout the day. The app will randomly notify the user at random times of the day to fill out the survey and will then save the user's data to the devices sd card."
+                        description="I used Java and Android Studio to develop an Android app that allows the user to randomly input their emotions throughout the day. The app will randomly notify the user at random times of the day to fill out the survey and will then save the user's data to the devices sd card."
                         link="https://github.com/michelleli01/random-sampling-app"
+                        />
+                    </Col>
+
+                    <Col md={4} className="project-card">
+                        <ProjectCard
+                        img={website}
+                        title="Personal Website Portfolio"
+                        description="I used React.JS, HTML5, and CSS3 to create this portfolio website. While not technically challenging, building this website really help introduce me to the basics of web development and was really fun to make!"
+                        link="https://github.com/michelleli01/portfolio"
                         />
                     </Col>
                 </Row>
