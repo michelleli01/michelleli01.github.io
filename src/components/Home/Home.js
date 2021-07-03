@@ -41,7 +41,7 @@ function Home(){
                         </h1>
                     </Col>
                     <Col md={4}>
-                        <img src={michelle} alt="picture of michelle" className="img-fluid"/>
+                        <img src={michelle} alt="michelle" className="img-fluid"/>
                     </Col>
                 </Row>
             </Container>
