@@ -20,7 +20,7 @@ function NavBar(){
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="response-navbar-nav">
                     <Nav className="mr-auto" defaultActiveKey="#home">
-                        <Nav.Link as={ Link } to="/">
+                        <Nav.Link as={ Link } to="/portfolio">
                             <BiHomeCircle /> Home
                         </Nav.Link>
                         <Nav.Link as={ Link } to="/projects" >
