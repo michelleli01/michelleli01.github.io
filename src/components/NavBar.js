@@ -26,7 +26,7 @@ function NavBar(){
                         <Nav.Link as={ Link } to="/projects" >
                             <AiOutlineProject /> Projects
                         </Nav.Link>                    
-                        <Nav.Link as={ Link } to="/resume">
+                        <Nav.Link onClick={()=> window.open("https://drive.google.com/file/d/1qbOu9RK86xYTpTR5VBESJH1afOY4CJfc/view?usp=sharing", "_blank")}>
                             <BiFile /> Resume
                         </Nav.Link>
                     </Nav>
