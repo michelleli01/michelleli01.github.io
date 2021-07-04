@@ -6,6 +6,7 @@ import othello from "../../assets/projects/othello.PNG";
 import paint from "../../assets/projects/paint.PNG";
 import random from "../../assets/projects/random.PNG";
 import website from "../../assets/projects/website.PNG";
+import othelloVideo from "../../assets/projects/othello-video.mp4"
 
 function Projects(){
     return (
@@ -24,6 +25,8 @@ function Projects(){
                         title="Othello"
                         description="I recreated classic game of Othello using Java and GUIs"
                         link="https://github.com/michelleli01/othello"
+                        video={othelloVideo}
+                        loop
                         />
                     </Col>
 

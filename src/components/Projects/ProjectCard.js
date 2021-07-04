@@ -5,8 +5,14 @@ import { BiLinkExternal } from "react-icons/bi";
 
 function ProjectCard(props){
     return (
+        
         <Card className="project-card-view">
-        <Card.Img variant="top" src={props.img} alt="card-image"/>
+        <video
+        poster={props.img}
+        onMouseOver={event => event.target.play()}
+        onMouseOut={event => event.target.pause()}
+        src={props.video}
+        />        
         <Card.Body>
             <Card.Title>{props.title}</Card.Title>
             <Card.Text style={{ textAlign: "justify "}}>{props.description}</Card.Text>
