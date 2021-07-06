@@ -14,7 +14,7 @@ function NavBar(){
         expand="lg"
         className="navbar">
             <Container>
-                <Navbar.Brand href="/">
+                <Navbar.Brand href="/portfolio">
                     Michelle Li
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
