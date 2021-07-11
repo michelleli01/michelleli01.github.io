@@ -6,6 +6,8 @@ import { Link } from "react-router-dom";
 import { BiHomeCircle, BiFile } from "react-icons/bi";
 import { AiOutlineProject} from "react-icons/ai";
 
+import './NavBar.css';
+
 function NavBar(){
 
     return (

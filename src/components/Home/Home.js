@@ -2,6 +2,8 @@ import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import michelle from "../../assets/michelle.jpg"
 
+import './Home.css';
+
 function Home(){
     return (
         <Container className="home-section">

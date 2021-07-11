@@ -1,0 +1,47 @@
+.img-fluid{
+    border-radius: 70%;
+}
+.home-section{
+    position: relative;
+}
+
+.home-header{
+    padding-top: 100px;
+    padding: 50px;
+    text-align: left;
+    color:slategrey
+}
+
+.heading{
+    font-size: 2.4em;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    padding-top: 150px;
+}
+
+.heading-name{
+    color: black;
+    font-size: 2.5em;
+    padding-left: 50px;
+}
+
+.green{
+    color:darkseagreen;
+}
+
+.home-about-section{
+    position: relative;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.home-introduction-body{
+    color:slategrey;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    font-size: .5em;
+}
+
+.home-main-body{
+    text-align: left;
+}

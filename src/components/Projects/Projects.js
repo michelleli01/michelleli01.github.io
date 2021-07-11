@@ -8,6 +8,8 @@ import random from "../../assets/projects/random.PNG";
 import website from "../../assets/projects/website.PNG";
 import othelloVideo from "../../assets/projects/othello-video.mp4"
 
+import './Projects.css';
+
 function Projects(){
     return (
         <Container fluid className="project-section">

@@ -1,0 +1,30 @@
+.project-section {
+    position: relative;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+
+.project-card{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: auto;
+}
+
+.project-card-view{
+    height: 100%;
+    box-sizing: border-box;
+    border: solid;
+    border-color: white;
+    box-shadow: 7px 7px 0 darkseagreen;
+    transition: all 0.132s ease !important;
+    text-decoration: none;
+    color: slategray;
+}
+
+.project-card-view:hover{
+    transform: scale(1.02);
+    box-shadow: 7px 7px 0 rgb(100, 131, 100);
+
+}

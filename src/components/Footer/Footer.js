@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import { FiGithub } from "react-icons/fi";
 import { FaLinkedin } from "react-icons/fa";
 
+import './Footer.css';
+
 function Footer(){
     
     return (
