@@ -21,15 +21,13 @@ function Projects(){
                 <Row style={{ justifyContent: "center", paddingBottom:"10px"}}>
                     <Col md={4} className="project-card">
                         <ProjectCard
-                        img={othello}
-                        title="Othello"
-                        description="I recreated classic game of Othello using Java and GUIs"
-                        link="https://github.com/michelleli01/othello"
-                        video={othelloVideo}
-                        loop
+                        img={website}
+                        title="Personal Website Portfolio"
+                        description="I used React.JS, JavaScript, HTML5, and CSS3 to create this portfolio website. While not technically challenging, building this website really help introduce me to the basics of web development and was really fun to make!"
+                        link="https://github.com/michelleli01/portfolio"
                         />
                     </Col>
-
+                    
                     <Col md={4} className="project-card">
                         <ProjectCard
                         img={paint}
@@ -41,19 +39,21 @@ function Projects(){
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                        img={random}
-                        title="Random Sampling App"
-                        description="I used Java and Android Studio to develop an Android app that allows the user to randomly input their emotions throughout the day. The app will randomly notify the user at random times of the day to fill out the survey and will then save the user's data to the devices sd card."
-                        link="https://github.com/michelleli01/random-sampling-app"
+                        img={othello}
+                        title="Othello"
+                        description="I recreated classic game of Othello using Java and GUIs"
+                        link="https://github.com/michelleli01/othello"
+                        video={othelloVideo}
+                        loop
                         />
                     </Col>
 
                     <Col md={4} className="project-card">
                         <ProjectCard
-                        img={website}
-                        title="Personal Website Portfolio"
-                        description="I used React.JS, JavaScript, HTML5, and CSS3 to create this portfolio website. While not technically challenging, building this website really help introduce me to the basics of web development and was really fun to make!"
-                        link="https://github.com/michelleli01/portfolio"
+                        img={random}
+                        title="Random Sampling App"
+                        description="I used Java and Android Studio to develop an Android app that allows the user to randomly input their emotions throughout the day. The app will randomly notify the user at random times of the day to fill out the survey and will then save the user's data to the devices sd card."
+                        link="https://github.com/michelleli01/random-sampling-app"
                         />
                     </Col>
                 </Row>
