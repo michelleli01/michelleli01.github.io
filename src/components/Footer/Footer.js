@@ -18,14 +18,14 @@ function Footer() {
           <a href="https://github.com/michelleli01">
             <AiFillGithub size={"25px"}/>
           </a>
-          <a href="https://www.linkedin.com/in/michelle-li-0342951a9/">
+          <a href="https://www.linkedin.com/in/michelleli0/">
             <AiFillLinkedin size={"25px"}/>
           </a>
         </Col>
 
         <Col md="4" className="footer-contact">
           <h3>301-250-0346</h3>
-          <h3>michelleyli123@gmail.com</h3>
+          <h3>myl39@cornell.edu</h3>
         </Col>
       </Row>
     </Container>

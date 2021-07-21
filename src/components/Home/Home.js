@@ -41,7 +41,7 @@ function Home() {
                   longboard.
                   <br/>
                   <br/>
-                  I am currently looking for a Fall 2021/Spring 2022/Summer 2022 role related to software development and/or data science. If you know of any open positions please feel free to reach out!
+                  I am currently looking for a Fall 2021/Spring 2022/Summer 2022 role related to software development and/or data science. If you know of any open positions please feel free to <a href="mailto:myl39@cornell.edu">reach out</a>!
                 </div>
                 <br />
                 <br />
