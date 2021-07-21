@@ -13,11 +13,11 @@ import './Projects.css';
 function Projects(){
     return (
         <Container fluid className="project-section">
-            <Container className="project-heading">
-                <h1>
+            <Container>
+                <h1 className="project-heading">
                     my <strong className="green">PROJECTS</strong>
                 </h1>
-                <p>
+                <p className="project-introduction">
                     Here are a few programs I've worked on throughout the years
                 </p>
                 <Row style={{ justifyContent: "center", paddingBottom:"10px"}}>

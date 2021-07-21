@@ -1,3 +1,6 @@
 .navbar{
     background-color: white;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2 em;
 }

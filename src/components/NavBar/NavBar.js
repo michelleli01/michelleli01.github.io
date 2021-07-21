@@ -12,15 +12,15 @@ function NavBar() {
   return (
     <Navbar fixed="top" expand="lg" className="navbar">
       <Container>
-        <Navbar.Brand href="/">Michelle Li</Navbar.Brand>
+        <Navbar.Brand href="/">michelle.</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="response-navbar-nav">
           <Nav className="mr-auto" defaultActiveKey="#home">
             <Nav.Link as={Link} to="/">
-              <BiHomeCircle /> Home
+              <BiHomeCircle /> home.
             </Nav.Link>
             <Nav.Link as={Link} to="/projects">
-              <AiOutlineProject /> Projects
+              <AiOutlineProject /> projects.
             </Nav.Link>
             <Nav.Link
               onClick={() =>
@@ -30,7 +30,7 @@ function NavBar() {
                 )
               }
             >
-              <BiFile /> Resume
+              <BiFile /> resume.
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

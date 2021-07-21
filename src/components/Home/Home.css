@@ -1,28 +1,31 @@
 .img-fluid{
-    border-radius: 70%;
+    border-radius: 50%;
 }
-.home-section{
-    position: relative;
+
+img{
+    margin-top: -3.5em;
 }
 
 .home-header{
     padding-top: 100px;
-    padding: 50px;
+    padding-bottom: 50px;
+    margin-top: 20px;
     text-align: left;
     color:slategrey
 }
 
 .heading{
     font-size: 2.4em;
-    padding-left: 50px;
-    padding-bottom: 20px;
     padding-top: 150px;
+    margin-bottom: 20px;
 }
 
 .heading-name{
     color: black;
     font-size: 2.5em;
-    padding-left: 50px;
+    font-family: "Montserrat";
+    font-weight: 900;
+    text-align: center;
 }
 
 .green{
@@ -39,9 +42,13 @@
     color:slategrey;
     padding-top: 10px;
     padding-bottom: 20px;
-    font-size: .5em;
+    font-size: .58em;
+    font-family: 'Poppins';
+    font-weight: 600;
 }
 
 .home-main-body{
     text-align: left;
+    font-size: 75%;
+    font-weight: 200;
 }

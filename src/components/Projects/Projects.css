@@ -1,30 +1,56 @@
+.project-heading {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.project-introduction {
+  color: slategrey;
+  font-family: Poppins;
+  font-weight: 200;
+}
+
 .project-section {
-    position: relative;
-    padding-top: 150px;
-    padding-bottom: 30px;
+  position: relative;
+  padding-top: 80px;
+  padding-bottom: 20px;
 }
 
-.project-card{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 25px;
-    padding-right: 25px;
-    height: auto;
+.project-card {
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 25px;
+  padding-right: 25px;
+  height: auto;
 }
 
-.project-card-view{
-    height: 100%;
-    box-sizing: border-box;
-    border: solid;
-    border-color: white;
-    box-shadow: 7px 7px 0 darkseagreen;
-    transition: all 0.132s ease !important;
-    text-decoration: none;
-    color: slategray;
+.project-card-view {
+  height: 100%;
+  box-sizing: border-box;
+  border: solid;
+  border-color: white;
+  box-shadow: 7px 7px 0 darkseagreen;
+  transition: all 0.132s ease !important;
+  text-decoration: none;
+  color: slategray;
 }
 
-.project-card-view:hover{
-    transform: scale(1.02);
-    box-shadow: 7px 7px 0 rgb(100, 131, 100);
+.project-card-view:hover {
+  transform: scale(1.02);
+  box-shadow: 7px 7px 0 rgb(100, 131, 100);
+}
 
+.project-card-title{
+    font-family: Poppins;
+    font-weight: 600 !important;
+    color: darkseagreen
+}
+
+.project-card-body{
+    font-family: Poppins;
+    font-weight: 200 !important;
+}
+
+.btn-primary{
+    font-family: "Montserrat";
+    font-weight: 600 !important;
 }

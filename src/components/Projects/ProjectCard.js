@@ -14,8 +14,8 @@ function ProjectCard(props){
         src={props.video}
         />        
         <Card.Body>
-            <Card.Title>{props.title}</Card.Title>
-            <Card.Text style={{ textAlign: "justify "}}>{props.description}</Card.Text>
+            <Card.Title className="project-card-title">{props.title}</Card.Title>
+            <Card.Text className="project-card-body" style={{ textAlign: "justify "}}>{props.description}</Card.Text>
             <style type="text/css">
                 {`
                     .btn-primary{
