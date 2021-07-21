@@ -16,13 +16,13 @@ function NavBar(){
         expand="lg"
         className="navbar">
             <Container>
-                <Navbar.Brand href="/portfolio">
+                <Navbar.Brand href="/">
                     Michelle Li
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
                 <Navbar.Collapse id="response-navbar-nav">
                     <Nav className="mr-auto" defaultActiveKey="#home">
-                        <Nav.Link as={ Link } to="/portfolio">
+                        <Nav.Link as={ Link } to="/">
                             <BiHomeCircle /> Home
                         </Nav.Link>
                         <Nav.Link as={ Link } to="/projects" >
