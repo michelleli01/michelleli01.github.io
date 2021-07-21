@@ -1,11 +1,11 @@
 import React from "react";
 import Home from "./components/Home/Home";
-import Projects from "./components/Projects/Projects"
-import NavBar from "./components/NavBar/NavBar"
-import Footer from "./components/Footer/Footer"
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom"
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import Projects from "./components/Projects/Projects";
+import NavBar from "./components/NavBar/NavBar";
+import Footer from "./components/Footer/Footer";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
@@ -19,7 +19,6 @@ function App() {
         <Footer />
       </Router>
     </div>
-    
   );
 }
 
