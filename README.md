@@ -1,5 +1,5 @@
 # Portfolio Website
-**Website Link: <a href="www.michelleyueli.web.app">michelleyueli.web.app</a>**
+**Website Link: <a href="https://michelleyueli.web.app/">michelleyueli.web.app</a>**
 #### Technology: React/JavaScript/HTML/CSS/Bootstrap
 
 This project is a simple portfolio that I designed to store all projects I have worked on and am currently working on. Though not technically challenging, this was the first project I built from scratch using ReactJS and helped deepen my understanding of website development significantly. I thoroughly enjoyed the process of seeing something I built come to life when just a couple of weeks ago I started withh a blank page. 
