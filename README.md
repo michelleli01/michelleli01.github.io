@@ -7,6 +7,7 @@ This project is a simple portfolio that I designed to store all projects I have 
 #### Screenshots
 ![portfolio_home_photo](https://user-images.githubusercontent.com/11303631/126588070-69639f7d-3a44-4d43-99fa-b9bc508e1aed.PNG)
 <br />
+<br />
 ![portfolio_projects_gif](https://user-images.githubusercontent.com/11303631/126588766-ff47ee67-408b-4022-ab8d-0475b8575a00.gif)
 
 #### Moving Forward
