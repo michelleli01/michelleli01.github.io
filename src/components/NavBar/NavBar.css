@@ -1,5 +1,28 @@
 .navbar{
+    display: flex;
+    align-items: center;
     background-color: white;
-    font-size: 1.2 em;
-    height: 70px;
+    box-shadow: 0px 3px #00000029;
+    min-height: 100px;
+    width: 100%;
+}
+
+.link {
+    position: relative;
+    align-self: center;
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 10px;
+    font: normal normal bold 20px/24px Poppins;
+    white-space: nowrap;
+    letter-spacing: 0px;
+    text-decoration: none !important;
+    color: darkseagreen;
+    opacity: 0.75;
+}
+
+.link:hover {
+    color: rgb(105, 139, 105);
+    opacity: 1;
+    cursor: pointer;
 }

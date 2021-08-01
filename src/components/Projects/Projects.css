@@ -21,6 +21,7 @@
   padding-left: 25px;
   padding-right: 25px;
   height: auto;
+  display: inline-block;
 }
 
 .project-card-view {
@@ -35,8 +36,8 @@
 }
 
 .project-card-view:hover {
-  transform: scale(1.02);
-  box-shadow: 7px 7px 0 rgb(100, 131, 100);
+  transform: scale(0.95);
+  box-shadow: 7px 7px 0 rgb(105, 139, 105);
 }
 
 .project-card-title{
