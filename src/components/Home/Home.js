@@ -24,7 +24,7 @@ function Home() {
                     <Col md={7} className='home-introduction'>
                         <h1>
                             <p className='home-introduction-body'>
-                                Hi! I'm Michelle, a sophmore studying{" "}
+                                Hi! I'm Michelle, a sophomore studying{" "}
                                 <span className='green'>Computer Science</span>{" "}
                                 at Cornell University in the College of
                                 Engineering
